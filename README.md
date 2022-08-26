@@ -21,6 +21,8 @@ For this template we've developed a built a DataTables example
 
 ## Getting Started
 
+_This widget requires the associated FMP.12 Demo file to function correctly._
+
 1. `npm install`
 2. `npm start`
 3. Open the DataTables-Demo_PBS.fmp12 file.
