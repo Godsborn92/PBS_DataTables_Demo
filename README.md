@@ -1,4 +1,4 @@
-# PBS DataTables Demo - Using JSDev Kit
+# Portage Bay Solutions - DataTables Demo - Using JSDev Kit
 
 _JS Dev Kit courtesy of Jeremy Brown's [js-dev-environment](https://github.com/integrating-magic/js-dev-environment)_
 
@@ -9,6 +9,7 @@ _JS Dev Kit courtesy of Jeremy Brown's [js-dev-environment](https://github.com/i
 This environment allows a FileMaker developer to start coding their widget and see the results right away in a FileMaker file. Once done developing, the can be inlined and pushed to the FileMaker file for use offline.
 <br/>
 It's a template file, so you can use to start other projects.
+For this template we've developed a built a DataTables example
 
 ## Consists of
 
