@@ -1,0 +1,37 @@
+# PBS DataTables Demo - Using JSDev Kit
+
+_JS Dev Kit courtesy of Jeremy Brown's [js-dev-environment](https://github.com/integrating-magic/js-dev-environment)_
+
+# This Kit
+
+## What it does
+
+This environment allows a FileMaker developer to start coding their widget and see the results right away in a FileMaker file. Once done developing, the can be inlined and pushed to the FileMaker file for use offline.
+<br/>
+It's a template file, so you can use to start other projects.
+
+## Consists of
+
+- A repository template on Github
+- A basic html / JS set up.
+- package.json file for install
+- A FileMaker file to show the widget rendered
+- Scripts to build and upload the inlined code to FileMaker
+
+## Getting Started
+
+1. `npm install`
+2. `npm start`
+3. Open the DataTables-Demo_PBS.fmp12 file.
+4. JSDev Example - Last Layout in Demo File
+5. Allow it to work in Dev mode.
+
+Webviewer should be populated with the PBS custom DataTable.
+
+## Kit Modifications
+
+This kit has been modified to include an example DataTables integration.
+
+## Demo File
+
+Refer to PBS DataTables Demo for specific data mapping
