@@ -1,15 +1,14 @@
-# Portage Bay Solutions - DataTables Demo - Using JSDev Kit
+# Portage Bay Solutions - DataTables Demo
+
+# Original Kit
 
 _JS Dev Kit courtesy of Jeremy Brown's [js-dev-environment](https://github.com/integrating-magic/js-dev-environment)_
 
-# This Kit
+# Kit - Template
 
 ## What it does
 
-This environment allows a FileMaker developer to start coding their widget and see the results right away in a FileMaker file. Once done developing, the can be inlined and pushed to the FileMaker file for use offline.
-<br/>
-It's a template file, so you can use to start other projects.
-For this template we've developed a built a DataTables example
+This environment uses the same js-dev-environment as the original kit. For this environment we provided the basic template needed to produce a DataTables integration. You can use this as a starter to customize your DataTable implementation building upon the existing code base.
 
 ## Consists of
 
@@ -21,7 +20,7 @@ For this template we've developed a built a DataTables example
 
 ## Getting Started
 
-_This widget requires the associated FMP.12 Demo file to function correctly._
+_This widget requires the associated FMP.12 Demo file to function correctly.</br> [DataTables-Demo_PBS](portagebaysolutions.com)_
 
 1. `npm install`
 2. `npm start`
@@ -29,12 +28,21 @@ _This widget requires the associated FMP.12 Demo file to function correctly._
 4. JSDev Example - Last Layout in Demo File
 5. Allow it to work in Dev mode.
 
-Webviewer should be populated with the PBS custom DataTable.
+WebViewer should be populated with the PBS custom DataTable. </br>
+Ready for modifications
+</br>
+
+### **Tools and Resources**
+
+- [VSCode](https://code.visualstudio.com) - _(recommended)_
+- [Git](https://git-scm.com) - _(recommended)_
+- [nodejs](https://nodejs.org/en/) - _npm (required)_
+- [jsinFM](https://www.jsinfm.com) - _Original Kit Documentation_
 
 ## Kit Modifications
 
-This kit has been modified to include an example DataTables integration.
+DataTables Support
 
-## Demo File
+## Support
 
-Refer to PBS DataTables Demo for specific data mapping
+Refer to Demo file for all supporting scripts
