@@ -20,7 +20,7 @@ This environment uses the same js-dev-environment as the original kit. For this 
 
 ## Getting Started
 
-_This widget requires the associated FMP.12 Demo file to function correctly.</br> [DataTables-Demo_PBS](portagebaysolutions.com)_
+_This widget requires the associated FMP.12 Demo file to function correctly._
 
 1. `npm install`
 2. `npm start`
@@ -36,13 +36,21 @@ Ready for modifications
 
 - [VSCode](https://code.visualstudio.com) - _(recommended)_
 - [Git](https://git-scm.com) - _(recommended)_
-- [nodejs](https://nodejs.org/en/) - _npm (required)_
+- [nodejs](https://nodejs.org/en/) - _this workflow uses npm (required)_
 - [jsinFM](https://www.jsinfm.com) - _Original Kit Documentation_
 
 ## Kit Modifications
 
-DataTables Support
+Support for DataTables
 
-## Support
+### Called from FileMaker Script
 
-Refer to Demo file for all supporting scripts
+- JSON object is sent during Load Web Viewer Event, data retrieved using the FileMaker Execute DataAPI script step.
+
+```javascript
+window.loadData = function (json) {
+const obj = JSON.parse(json);
+// console.log(obj);
+const dataSet = obj.data;
+// console.log(dataSet);
+```
