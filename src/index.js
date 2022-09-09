@@ -27,9 +27,9 @@ let table;
 //Window loadData Function to be called from FM script - Thanks to Jeremy Brown
 window.loadData = function (json) {
   const obj = JSON.parse(json);
-  console.log(obj);
+  // console.log(obj);
   const dataSet = obj.data;
-  console.log(dataSet);
+  // console.log(dataSet);
 
   //Fail Safe
   if (table) table.destroy();
